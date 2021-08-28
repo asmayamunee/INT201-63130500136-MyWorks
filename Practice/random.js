@@ -29,7 +29,7 @@ function find(n){
     switch(n){
         case 1 : console.log(num1+num2+num3);
         break;
-        case 2 : console.log(Math.min(num1,num2,num3));
+        case 2 : console.log(Math.min(num1,num2,num3)); 
         break;
         case 3 : console.log(Math.max(num1,num2,num3));
         break;
@@ -46,4 +46,4 @@ function main(){
     find(2);
     find(3);
 }
-main();
+main();//เรียกใช้function
